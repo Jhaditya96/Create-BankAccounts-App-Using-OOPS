@@ -37,7 +37,7 @@ public class BankAccountApp {
 		
 		// Read a .csv file and create accounts based on that data. LEC-37
 		//Accessing the file using URL from specific local location.
-		String file = "G:\\Java Apr_2020\\Luna WorkSpace\\ProjectTarget.csv";
+		String file = "./ProjectTarget.csv";
 		
 		
 		List<String[]> newAccountHolders = utilities.CSVFIleforbankAccApp.read(file);//This data structure has
